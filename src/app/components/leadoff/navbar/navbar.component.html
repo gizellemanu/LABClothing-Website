@@ -1,41 +1,68 @@
 <div class="mynavbar">
   <div class="dropdown navbar-dropdown">
     <img
-      src="assets/notification.svg" alt="notification"
-      class="icon-small px-5" id="alerta">
-
-      <img src="assets/user.ico" alt="user" class="avatar navbar-avatar mw-2">
+      src="assets/notification.svg"
+      alt="notification"
+      class="icon-small px-5"
+      id="alerta">
+    <img src="assets/user.ico" 
+    alt="user" 
+    class="avatar navbar-avatar mw-2" />
 
     <img
-      src="assets/setspointer.svg" alt="User Sets"
-      class="icon-small px-3"id="dropdownMenuButton"
-      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      src="assets/setspointer.svg"
+      alt="User Sets"
+      class="icon-small px-3"
+      id="dropdownMenuButton"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false">
 
     <ul class="dropdown-menu mt-1" aria-labelledby="dropdownMenuButton">
-      <li><a class="dropdown-item" href="#">
-        <img src="assets/account.svg" class="icon small px-3 mt-2" >Account</a></li>
-      <li><a class="dropdown-item" href="#">
-        <img src="assets/sets.svg" class="icon small px-3 mt-2">Sets</a></li>
-      <li><a class="dropdown-item" href="mailto:contact@gmail.com">
-        <img src="assets/logout.svg" class="icon small px-3 mt-2" >Log out</a></li>
+      <li>
+        <a class="dropdown-item" routerLink="/login">
+          <img
+            src="assets/account.svg"
+            class="icon small px-3 mt-2"
+          />Account</a
+        >
+      </li>
+      <li>
+        <a class="dropdown-item" routerLink="/login">
+          <img src="assets/sets.svg" class="icon small px-3 mt-2" 
+          />Sets</a
+        >
+      </li>
+      <li>
+        <a class="dropdown-item" routerLink="/login">
+          <img src="assets/logout.svg" class="icon small px-3 mt-2" 
+          />Log out</a >
+      </li>
     </ul>
   </div>
 </div>
-
 <div class="navbar">
   <div class="dropdown navbar-dropdown">
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="#"
-        ><img
-          src="assets/conta.svg" alt="iconeconta" class="icon small px-3"/>Account</a>
-      <a class="dropdown-item" href="#"
-        ><img
-          src="assets/configuracoes.svg" alt="iconeconfig"
-          class="icon small px-3" />Sets</a>
-      <a class="dropdown-item" href="#">
+      <a class="dropdown-item" (click)="handleAccountClick()">
         <img
-          src="assets/sair.svg" alt="Log out"
-          class="icon small px-3" />Log out</a>
+          routerLink="/login"
+          src="assets/conta.svg"
+          alt="iconeconta"
+          class="icon small px-3">
+          Account</a>
+      <a class="dropdown-item" (click)="handleAccountClick()">
+        <img
+          src="assets/configuracoes.svg"
+          alt="iconeconfig"
+          class="icon small px-3">
+          Sets</a>
+      <a class="dropdown-item"(click)="handleAccountClick()">
+        <img 
+        src="assets/sair.svg" 
+        alt="Log out" 
+        class="icon small px-3">
+        Log out</a>
     </div>
   </div>
 </div>

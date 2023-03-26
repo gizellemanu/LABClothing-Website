@@ -2,23 +2,29 @@
     "modelos": [
       {
         "id": 1,
-        "nome": "Modelo 1",
-        "colecao": 1
+        "model": "Modelo 1",
+        "sponsor": "Gizelle",
+        "collection": 1
       },
       {
         "id": 2,
-        "nome": "Modelo 2",
-        "colecao": 1
+        "model": "Modelo 2",
+        "sponsor": "Gizelle",
+        "collection": 2
       }
     ],
     "colecoes": [
       {
-        "id": 1,
-        "nome": "Coleção 1"
+        "collection": "Coleção 1",
+        "sponsor": "Gizelle",
+        "model": "Modelo 1",
+        "budgets": "1236,00"
       },
       {
-        "id": 2,
-        "nome": "Coleção 2"
+        "collection": "Coleção 2",
+        "sponsor": "Gizelle",
+        "model": "Modelo 2",
+        "budget": "1236,00"
       }
     ]
   }

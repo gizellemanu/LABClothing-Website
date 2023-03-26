@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { ModeleditComponent } from './components/pages/modeledit/modeledit.compo
 import { UserconfirmationpasswordComponent } from './components/pages/userconfirmationpassword/userconfirmationpassword.component';
 import { SidebarComponent } from './components/leadoff/sidebar/sidebar.component';
 import { NavbarComponent } from './components/leadoff/navbar/navbar.component';
+import { ParentComponent } from './components/leadoff/parent/parent.component';
 
 
 @NgModule({
@@ -34,12 +36,14 @@ import { NavbarComponent } from './components/leadoff/navbar/navbar.component';
     UserconfirmationpasswordComponent,
     SidebarComponent,
     NavbarComponent,
+    ParentComponent,
   
        
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
