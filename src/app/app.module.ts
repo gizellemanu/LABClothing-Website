@@ -18,7 +18,6 @@ import { UserconfirmationpasswordComponent } from './components/pages/userconfir
 import { SidebarComponent } from './components/leadoff/sidebar/sidebar.component';
 import { NavbarComponent } from './components/leadoff/navbar/navbar.component';
 import { ParentComponent } from './components/leadoff/parent/parent.component';
-import { AuthService } from './components/autentific/auth.service';
 
 
 @NgModule({
