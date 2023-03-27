@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-import { ActivatedRoute } from '@angular/router';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-userpassword',
@@ -11,7 +9,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class UserpasswordComponent {
   userForm: FormGroup = new FormGroup({
-    email: new FormControl('x.y.z@gmail.com', [
+    email: new FormControl('', [
       Validators.required,
       Validators.email
     ])
@@ -27,5 +25,4 @@ export class UserpasswordComponent {
 
     this.router.navigateByUrl('/userpassword/confirmationpassword');
   }
-
 }

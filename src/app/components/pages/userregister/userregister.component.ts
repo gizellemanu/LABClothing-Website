@@ -47,5 +47,5 @@ export class UserregisterComponent {
     if (passwordInput && passwordConfirmationInput) {
       passwordInput.setAttribute('type', 'password');
     }
-  }  
+  }
 }

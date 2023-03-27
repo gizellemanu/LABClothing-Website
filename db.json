@@ -2,29 +2,67 @@
     "modelos": [
       {
         "id": 1,
-        "model": "Modelo 1",
-        "sponsor": "Gizelle",
-        "collection": 1
+        "modelo": "Dress",
+        "responsavel": "Gizelle",
+        "coleção":" Antix"
       },
       {
         "id": 2,
-        "model": "Modelo 2",
-        "sponsor": "Gizelle",
-        "collection": 2
-      }
-    ],
-    "colecoes": [
-      {
-        "collection": "Coleção 1",
-        "sponsor": "Gizelle",
-        "model": "Modelo 1",
-        "budgets": "1236,00"
+        "modelo": "T-shirt",
+        "responsavel": "Gizelle",
+        "coleção": "Farm"
       },
       {
-        "collection": "Coleção 2",
+        "id": 3,
+        "modelo": "Trousers",
+        "responsavel": "Gizelle",
+        "coleção": "Jhon-Jhon"
+      },
+      {
+        "id": 4,
+        "modelo": "Purse",
+        "responsavel": "Gizelle",
+        "coleção": "Lez a Lez"
+      },
+      {
+        "id": 5,
+        "modelo": "jacket",
+        "responsavel": "Gizelle",
+        "coleção": "Miu Miu"
+      }
+
+      
+    ],
+    "coleções": [
+      {
+        "coleção": "Summer Vibes",
+        "responsavel": "Gizelle",
+        "modelo": 60,
+        "orçamento": "5"
+      },
+      {
+        "coleção": "Autumn Chic",
         "sponsor": "Gizelle",
-        "model": "Modelo 2",
-        "budget": "1236,00"
+        "modelo": 50,
+        "orçamento": "15"
+      },
+      {
+        "coleção": "Spring Field",
+        "responsavel": "Gizelle",
+        "modelo": 40,
+        "orçamento": "30"
+      },
+      {
+        "coleção": "Party Fashion",
+        "responsavel": "Gizelle",
+        "modelo": 10,
+        "orçamento": "20"
+      },
+      {
+        "coleção": "Winter Hot",
+        "responsavel": "Gizelle",
+        "model": 20,
+        "orçamento": "10"
       }
     ]
   }

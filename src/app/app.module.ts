@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserloginComponent } from './components/pages/userlogin/userlogin.component';
@@ -18,6 +18,7 @@ import { UserconfirmationpasswordComponent } from './components/pages/userconfir
 import { SidebarComponent } from './components/leadoff/sidebar/sidebar.component';
 import { NavbarComponent } from './components/leadoff/navbar/navbar.component';
 import { ParentComponent } from './components/leadoff/parent/parent.component';
+import { AuthService } from './components/autentific/auth.service';
 
 
 @NgModule({
@@ -43,7 +44,9 @@ import { ParentComponent } from './components/leadoff/parent/parent.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
