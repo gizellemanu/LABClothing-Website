@@ -70,11 +70,17 @@ const routes: Routes = [
         component: ModelsheetComponent,
       },
     ],
+    
   },
+  {
+  path: 'editar/:id', 
+  component: ColectioneditComponent
+  }  
 ];
 
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes)], 
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

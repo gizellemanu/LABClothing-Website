@@ -1,12 +1,16 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class ColecaoService {
-  private apiURL = ' http://localhost:3000/colecoes';
-  
-  constructor() { }
+  constructor(private http: HttpClient, private router: Router) { }
+
+
+
   calculateTotalModels(colecoes: any[]): number {
     return colecoes.reduce((total: number, colecao: any) => total + colecao.modelo, 0);
   }
@@ -31,8 +35,8 @@ export class ColecaoService {
           const orcamentoB = parseFloat(b.orcamento.replace('R$', '').replace('.', '').replace(',', '.'));
           return orcamentoB - orcamentoA;
         });
-
       return sorted.slice(0, 5);
     }
   }
+  
 }
