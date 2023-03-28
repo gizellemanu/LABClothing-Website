@@ -4,65 +4,84 @@
         "id": 1,
         "modelo": "Dress",
         "responsavel": "Gizelle",
-        "coleção":" Antix"
+        "colecao":"2"
       },
       {
         "id": 2,
         "modelo": "T-shirt",
         "responsavel": "Gizelle",
-        "coleção": "Farm"
+        "colecao": "3"
       },
       {
         "id": 3,
         "modelo": "Trousers",
         "responsavel": "Gizelle",
-        "coleção": "Jhon-Jhon"
+        "colecao": "9"
       },
       {
         "id": 4,
         "modelo": "Purse",
         "responsavel": "Gizelle",
-        "coleção": "Lez a Lez"
+        "colecao": "5"
       },
       {
         "id": 5,
         "modelo": "jacket",
         "responsavel": "Gizelle",
-        "coleção": "Miu Miu"
+        "colecao": "9"
       }
 
       
     ],
-    "coleções": [
+    "colecoes": [
       {
-        "coleção": "Summer Vibes",
-        "responsavel": "Gizelle",
-        "modelo": 60,
-        "orçamento": "5"
+      "colecao": "Summer Vibes",
+      "responsavel": "Gizelle",
+      "estacaoLancamento":"Outono 1992",
+      "modelo": 60,
+      "orcamento": "5"
       },
       {
-        "coleção": "Autumn Chic",
-        "sponsor": "Gizelle",
-        "modelo": 50,
-        "orçamento": "15"
+      "colecao": "Autumn Chic",
+      "responsavel": "Gizelle",
+      "estacaoLancamento":"Verão 2002",
+      "modelo": 50,
+      "orcamento": "15"
       },
       {
-        "coleção": "Spring Field",
-        "responsavel": "Gizelle",
-        "modelo": 40,
-        "orçamento": "30"
+      "colecao": "Spring Field",
+      "responsavel": "Gizelle",
+      "estacaoLancamento":"Inverno 2016",
+      "modelo": 40,
+      "orcamento": "30"
       },
       {
-        "coleção": "Party Fashion",
-        "responsavel": "Gizelle",
-        "modelo": 10,
-        "orçamento": "20"
+      "colecao": "Party Fashion",
+      "responsavel": "Gizelle",
+      "estacaoLancamento":"Primaver 1998",
+      "modelo": 10,
+      "orcamento": "20"
       },
       {
-        "coleção": "Winter Hot",
+      "colecao": "florest",
+      "responsavel": "Gizelle",
+      "estacaoLancamento":"Verão 2020",
+      "modelo": 20,
+      "orcamento": "10"
+      },
+      {
+        "colecao": "ocean",
         "responsavel": "Gizelle",
-        "model": 20,
-        "orçamento": "10"
-      }
-    ]
+        "estacaoLancamento":"Outono 2010",
+        "modelo": 20,
+        "orcamento": "100"
+        },
+        {
+          "colecao": "wind",
+          "responsavel": "Gizelle",
+          "estacaoLancamento":"Inveno 2018",
+          "modelo": 20,
+          "orcamento": "200"
+          }
+      ]
   }

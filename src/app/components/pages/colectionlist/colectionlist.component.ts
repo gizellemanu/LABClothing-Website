@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
+import { ColecaoService } from '../../serviço/coleçao.service';
+
 
 @Component({
   selector: 'app-colectionlist',
@@ -7,5 +8,4 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./colectionlist.component.css']
 })
 export class ColectionlistComponent {
-
 }
