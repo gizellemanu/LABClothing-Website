@@ -1,28 +1,34 @@
 <div class="container mt-5">
   <div class="row">
-    <div class=" col-md-10 ml-auto px-4 py-4 mt-3">
+    <div class="col-md-10 ml-auto px-4 py-4 mt-3">
       <h3 class="heading">Creat Model</h3>
     </div>
-
-
     <div class="mt-3 col-md-9 ml-auto">
       <div class="card p-3 mb-2">
-        <form>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
           <div class="row">
             <div class="col">
-              <input
+              <input 
                 type="text"
                 class="form-control"
+               formControlName="nomemodelo"
                 placeholder="Model name">
             </div>
             <div class="col">
               <select
                 class="form-select form-select"
-                aria-label=".form-select-lg example">
-                <option selected>Select the model</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                aria-label=".form-select-lg example"
+                formControlName="tipo">
+                <option value="" disabled selected>Select type model</option>
+                <option value="bermuda">bermuda</option>
+                <option value="biquini">biquini</option>
+                <option value="bolsa">bolsa</option>
+                <option value="bone">bone</option>
+                <option value="calca">calca</option>
+                <option value="calcado">calcado</option>
+                <option value="camisa">camisa</option>
+                <option value="chapeu">chapeu</option>
+                <option value="saia">saia</option>
               </select>
             </div>
           </div>
@@ -31,15 +37,25 @@
               <div class="col">
                 <select
                   class="form-select form-select"
-                  aria-label=".form-select-lg example">
-                  <option selected>Select the collection</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  aria-label=".form-select-lg example"
+                  formControlName="colecao">
+                  <option value="" disabled selected>Select the collection</option>
+                  <option value="antix">antix</option>
+                  <option value="addidas">addidas</option>
+                  <option value="arrezo">arrezo</option>
+                  <option value="farm">farm</option>
+                  <option value="blue still">blue still</option>
+                  <option value="miu miu">miu miu</option>
+                  <option value="jhon jhon">jhon jhon</option>
+                  <option value="luz da lua">luz da lua</option>
                 </select>
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="Sponsor">
+                <input
+                  type="text"
+                  class="form-control"
+                  formControlName="responsavel"
+                  placeholder="Sponsor">
               </div>
             </div>
           </div>
@@ -49,54 +65,53 @@
                 <p class="text-body py-2">Does the model has embroidery?</p>
                 <div class="form-check form-check-inline">
                   <input
+                    name="bordado"
+                    value="sim"
+                    formControlName="bordado"
                     class="form-check-input-inline"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="inlineRadio1"
-                    value="option1">
-                  <label class="form-check-label px-2" for="inlineRadio1"
-                    >sim</label>
+                    type="radio">
+                  <label class="form-check-label px-2" for="bordado">sim</label>
                 </div>
                 <div class="form-check form-check-inline pb-3">
                   <input
+                    name="bordado"
+                    value="nao"
+                    formControlName="bordado"
                     class="form-check-input-inline"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="inlineRadio2"
-                    value="option2">
-                  <label class="form-check-label px-2" for="inlineRadio2"
-                    >não</label>
+                    type="radio">
+                  <label class="form-check-label px-2" for="bordado">não</label>
                 </div>
               </div>
               <div class="col">
                 <p class="text-body py-2">Does the model has a print?</p>
                 <div class="form-check form-check-inline">
                   <input
+                    name="estampa"
+                    value="sim"
+                    formControlName="estampa"
                     class="form-check-input-inline"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="inlineRadio1"
-                    value="option1">
-                  <label class="form-check-label px-2" for="inlineRadio1"
-                    >sim</label>
+                    type="radio">
+                  <label class="form-check-label px-2" for="estampa">sim</label>
                 </div>
                 <div class="form-check form-check-inline pb-3">
                   <input
+                    name="estampa"
+                    formControlName="estampa"
+                    value="não"
                     class="form-check-input-inline"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="inlineRadio2"
-                    value="option2">
-                  <label class="form-check-label px-2" for="inlineRadio2"
-                    >não</label>
+                    type="radio">
+                  <label class="form-check-label px-2" for="estampa">não</label>
                 </div>
               </div>
             </div>
           </div>
           <div class="mt-5">
             <div class="text-center text-lg-start float-right">
-              <button type="button" class="btn btn-secondary">Cancel</button>
-              <button type="button" class="btn btn-primary">Save</button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                routerLink="/sidebar/navbar/modellist"> Cancel</button>
+              <button [disabled]="!form.valid" type="submit" class="btn btn-primary">Save</button>
             </div>
           </div>
         </form>

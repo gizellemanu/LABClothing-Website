@@ -7,6 +7,7 @@ import { Router, ActivatedRoute } from '@angular/router';
   templateUrl: './userpassword.component.html',
   styleUrls: ['./userpassword.component.css']
 })
+
 export class UserpasswordComponent {
   userForm: FormGroup = new FormGroup({
     email: new FormControl('', [
@@ -22,7 +23,7 @@ export class UserpasswordComponent {
       alert('Please enter a valid email.');
       return;
     }
-
+    
     this.router.navigateByUrl('/userpassword/confirmationpassword');
   }
 }

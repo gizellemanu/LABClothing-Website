@@ -1,101 +1,135 @@
 {
-    "modelos": [
-      {
-        "id": 1,
-        "modelo": "Dress",
-        "responsavel": "Gizelle",
-        "colecao":"2"
-      },
-      {
-        "id": 2,
-        "modelo": "T-shirt",
-        "responsavel": "Gizelle",
-        "colecao": "3"
-      },
-      {
-        "id": 3,
-        "modelo": "Trousers",
-        "responsavel": "Gizelle",
-        "colecao": "9"
-      },
-      {
-        "id": 4,
-        "modelo": "Purse",
-        "responsavel": "Gizelle",
-        "colecao": "5"
-      },
-      {
-        "id": 5,
-        "modelo": "jacket",
-        "responsavel": "Gizelle",
-        "colecao": "9"
-      }
-
-      
-    ],
-    "colecoes": [
-      {
-        "colecao": "L'amour",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Outono 1992",
-        "modelo": 60,
-        "orcamento": "5",
-        "marca": "Antix",
-        "ano":"1992"
-      },
-      {
-        "colecao": "Spring Field",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Verão 2002",
-        "modelo": 50,
-        "orcamento": "15",
-        "marca": "Antix",
-        "anoLancamento":"2002"
-      },
-      {
-        "colecao": "Summer Fashiom",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Inverno 2016",
-        "modelo": 40,
-        "orcamento": "30",
-        "marca": "Antix",
-        "anoLancamento": "2016"
-      },
-      {
-        "colecao": "Night Pary",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Primavera 1998",
-        "modelo": 10,
-        "orcamento": "20",
-        "marca": "Antix",
-        "anoLancamento":"1998"
-      },
-      {
-        "colecao": "Bichos da Floresta",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Verão",
-        "modelo": 20,
-        "orcamento": "10",
-        "marca": "Antix",
-        "anoLancamento": "2020"
-      },
-      {
-        "colecao": "Porquinho Germanico",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Outono",
-        "modelo": 20,
-        "orcamento": "100",
-        "marca": "Antix",
-        "anoLancamento":"2010"
-      },
-      {
-        "colecao": "Happy days",
-        "responsavel": "Gizelle",
-        "estacaoLancamento": "Inverno",
-        "modelo": 20,
-        "orcamento": "2000",
-        "marca": "Antix",
-        "anoLancamento": "2018"
-      }
-    ]
-  }
+  "modelos": [
+    {
+      "id": "001",
+      "nomemodelo": "Tie",
+      "responsavel": "Gizelle",
+      "tipo": "bermuda",
+      "colecao": "22",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "002",
+      "nomemodelo": "T-shirt",
+      "responsavel": "Gizelle",
+      "tipo": "calca",
+      "colecao": "35",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "003",
+      "nomemodelo": "Trousers",
+      "responsavel": "Gizelle",
+      "tipo": "bone",
+      "colecao": "94",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "004",
+      "nomemodelo": "Purse",
+      "responsavel": "Gizelle",
+      "tipo": "bolsa",
+      "colecao": "56",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "005",
+      "nomemodelo": "Jacket",
+      "responsavel": "Gizelle",
+      "tipo": "camisa",
+      "colecao": "19",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "006",
+      "nomemodelo": "Body-warmer",
+      "responsavel": "Gizelle",
+      "tipo": "chapeu",
+      "colecao": "19",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "007",
+      "nomemodelo": "Sleeveless",
+      "responsavel": "Gizelle",
+      "tipo": "saia",
+      "colecao": "19",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "id": "008",
+      "nomemodelo": "skirt",
+      "responsavel": "Gizelle",
+      "tipo": "saia",
+      "colecao": "19",
+      "bordado": "sim",
+      "estampa": "nao"
+    },
+    {
+      "nomemodelo": "hzfh",
+      "colecao": "farm",
+      "tipo": "bone",
+      "bordado": "nao",
+      "estampa": "não",
+      "responsavel": "fhbzdh",
+      "id": "HuWnEK_"
+    }
+  ],
+  "colecoes": [
+    {
+      "colecao": "Spring Field",
+      "responsavel": "Gizelle",
+      "estacaoLancamento": "Summer",
+      "orcamento": "15",
+      "marca": "Antix",
+      "anoLancamento": "2002"
+    },
+    {
+      "colecao": "Summer Fashiom",
+      "responsavel": "Gizelle",
+      "estacaoLancamento": "Winter",
+      "orcamento": "10",
+      "marca": "Antix",
+      "anoLancamento": "2016"
+    },
+    {
+      "colecao": "Night Pary",
+      "responsavel": "Gizelle",
+      "estacaoLancamento": "Spring",
+      "modelo": 10,
+      "orcamento": "10",
+      "anoLancamento": "1998"
+    },
+    {
+      "colecao": "Elegant me",
+      "responsavel": "Gizelle",
+      "estacaoLancamento": "Sumer",
+      "orcamento": "10",
+      "marca": "Antix",
+      "anoLancamento": "2020"
+    },
+    {
+      "colecao": "Breakdown ",
+      "responsavel": "Gizelle",
+      "estacaoLancamento": "Autunm",
+      "orcamento": "100",
+      "marca": "Antix",
+      "anoLancamento": "2010"
+    },
+    {
+      "colecao": "Happy days",
+      "responsavel": "Gizelle",
+      "estacaoLancamento": "Inverno",
+      "orcamento": "2000",
+      "marca": "Antix",
+      "anoLancamento": "2018"
+    }
+  ]
+}

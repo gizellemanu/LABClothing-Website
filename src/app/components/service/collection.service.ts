@@ -1,15 +1,15 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
-
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ColecaoService {
+export class CollectionService {
+  private apiUrl = 'http://localhost:3000/colecoes';
+
   constructor(private http: HttpClient, private router: Router) { }
-
-
 
   calculateTotalModels(colecoes: any[]): number {
     return colecoes.reduce((total: number, colecao: any) => total + colecao.modelo, 0);
@@ -38,5 +38,7 @@ export class ColecaoService {
       return sorted.slice(0, 5);
     }
   }
-  
+  addcollection(collection: any): Observable<any> {
+    return this.http.post<any>(this.apiUrl, collection);
+  }
 }

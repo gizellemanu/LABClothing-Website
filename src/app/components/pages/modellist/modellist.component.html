@@ -20,37 +20,16 @@
                   <th scope="col">Model ID</th>
                   <th scope="col">Model Name</th>
                   <th scope="col">Sponsor</th>
-                  <th scope="col">Colection</th>
+                  <th scope="col">Collection</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr *ngFor="let modelo of modelos">
                   <th scope="row"></th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row"></th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row"></th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th scope="row"></th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>{{ modelo.id }}</td>
+                  <td>{{ modelo.nomemodelo }}</td>
+                  <td>{{ modelo.responsavel }}</td>
+                  <td>{{ modelo.colecao }}</td>
                 </tr>
               </tbody>
             </table>

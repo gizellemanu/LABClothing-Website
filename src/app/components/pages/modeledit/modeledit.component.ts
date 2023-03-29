@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { ModelService } from '../../service/model.service';
 
 @Component({
   selector: 'app-modeledit',

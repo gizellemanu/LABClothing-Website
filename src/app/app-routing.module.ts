@@ -37,6 +37,7 @@ const routes: Routes = [
     path: 'userpassword/confirmationpassword',
     component: UserconfirmationpasswordComponent,
   },
+ 
   {
     path: '',
     component: ParentComponent,
@@ -72,10 +73,18 @@ const routes: Routes = [
     ],
     
   },
+  
   {
-  path: 'editar/:id', 
-  component: ColectioneditComponent
-  }  
+    path: 'editar/:id',
+    component: ColectioneditComponent,
+    children:[
+      {
+        path: '',
+        component: ParentComponent, 
+        outlet: 'main'
+      },
+    ],
+  }
 ];
 
 

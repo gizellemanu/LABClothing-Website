@@ -13,24 +13,64 @@
               <form (ngSubmit)="onSubmit()" class="my-login-validation" [formGroup]="userForm">
                 <div class="form-group">
                   <label for="name"></label>
-                  <input id="name" type="text" class="form-control" name="name" formControlName="name" placeholder="name" />
+                  <input 
+                    id="name" 
+                    type="text" 
+                    class="form-control" 
+                    name="name" 
+                    formControlName="name" 
+                    placeholder="name">
                   <label for="company"></label>
-                  <input id="company" type="text" class="form-control" name="company" formControlName="company" placeholder="company" />
+                  <input 
+                    id="company" 
+                    type="text" 
+                    class="form-control"
+                    name="company" 
+                    formControlName="company" 
+                    placeholder="company">
                   <label for="cnpj"></label>
-                  <input id="cnpj" type="text" class="form-control" name="cnpj" formControlName="cnpj" placeholder="cnpj" />
+                  <input 
+                    id="cnpj" 
+                    type="text" 
+                    class="form-control" 
+                    name="cnpj" 
+                    formControlName="cnpj" 
+                    placeholder="cnpj">
                   <label for="email"></label>
-                  <input id="email" type="email" class="form-control" name="email" formControlName="email" placeholder="email address" />
+                  <input 
+                    id="email" 
+                    type="email" 
+                    class="form-control" 
+                    name="email" 
+                    formControlName="email" 
+                    placeholder="email address">
                   <div class="form-row pt-4">
                     <div class="col">
-                      <input id="password" type="password" class="form-control" name="password" formControlName="password" placeholder="password" />
+                      <input 
+                        id="password" 
+                        type="password" 
+                        class="form-control" 
+                        name="password" 
+                        formControlName="password" 
+                        placeholder="password">
                     </div>
                     <div class="col">
-                      <input id="passwordconfirmation" type="password" name="passwordconfirmation" class="form-control" formControlName="passwordConfirmation" placeholder="confirm password" />
+                      <input 
+                        id="passwordconfirmation" 
+                        type="password" 
+                        name="passwordconfirmation" 
+                        class="form-control" 
+                        formControlName="passwordConfirmation" 
+                        placeholder="confirm password">
                     </div>
                   </div>
                 </div>
                 <div class="form-group m-0">
-                  <button type="submit" class="btn btn-primary btn-block" [disabled]="!userForm.valid">Create account</button>
+                  <button 
+                    type="submit" 
+                    class="btn btn-primary btn-block" 
+                    [disabled]="!userForm.valid">Create account
+                </button>
                 </div>
               </form>
             </div>

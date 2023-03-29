@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ColecaoService } from '../../serviço/coleçao.service';
+import { CollectionService } from '../../service/collection.service';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 
@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 export class ColectionlistComponent implements OnInit{
   colecoes: any[] = [];
 
-  constructor(private httpClient: HttpClient, private colecaoService: ColecaoService,private router: Router ) { }
+  constructor(private httpClient: HttpClient, private collectionService: CollectionService,private router: Router ) { }
 
   ngOnInit(): void {
     this.httpClient.get<any[]>('http://localhost:3000/colecoes')

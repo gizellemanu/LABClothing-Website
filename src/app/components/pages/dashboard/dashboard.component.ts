@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ColecaoService } from '../../serviço/coleçao.service';
+import { CollectionService } from '../../service/collection.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,21 +12,20 @@ export class DashboardComponent implements OnInit {
   colecoesTotal?: number;
   modelosTotal?: number;
   orcamentoMedio?: number;
-
   colecoes: any[] = [];
 
-  constructor(private http: HttpClient, private ColecaoService: ColecaoService) { }
+  constructor(private http: HttpClient, private collectionService: CollectionService) { }
 
   ngOnInit(): void {
     this.http.get<any[]>('http://localhost:3000/colecoes').subscribe(data => {
-      this.colecoes = this.ColecaoService.sortTable(data, 'orcamento');
+      this.colecoes = this.collectionService.sortTable(data, 'orcamento');
       this.colecoesTotal = data.length;
-      this.modelosTotal = this.ColecaoService.calculateTotalModels(data);
-      this.orcamentoMedio = this.ColecaoService.calculateAverageBudget(data);
+      this.modelosTotal = this.collectionService.calculateTotalModels(data);
+      this.orcamentoMedio = this.collectionService.calculateAverageBudget(data);
     });
   }
 
   sortTable(coluna: string) {
-    this.colecoes = this.ColecaoService.sortTable(this.colecoes || [], coluna);
+    this.colecoes = this.collectionService.sortTable(this.colecoes || [], coluna);
   }
 }
