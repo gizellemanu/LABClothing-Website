@@ -1,5 +1,5 @@
-<div class="container mb-2 mt-5">
-  <div class="col-md-10 ml-auto px-5 py-5">
+<div class="container mb-2 mt-3">
+  <div class="col-md-10 ml-auto px-3 py-3">
     <h5 class="mb-2 mt-5">Creat Collection</h5>
   </div>
   <div class="row">
@@ -40,16 +40,26 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col-md-6">
                 <input 
-                formControlName="orcamento" type="text" class="form-control mb-3"
+                  formControlName="orcamento" 
+                  type="text" 
+                  class="form-control mb-3"
                   placeholder="What is the budget of the collection?">
               </div>
-              <div class="col">
-                <input formControlName="anoLancamento" type="text" class="form-control mb-3"
-                  placeholder="Release year">
+              <div class="col-md-3">
+                <input formControlName="modelo" 
+                       type="text" 
+                       class="form-control mb-3"
+                       placeholder="nº models">
               </div>
-            </div>
+              <div class="col-md-3">
+                <input formControlName="anoLancamento" 
+                       type="text" 
+                       class="form-control mb-3"
+                       placeholder="Release year">
+              </div>
+           </div>
             <div class="d-flex justify-content-center mt-4">
               <img src="assets/modelist.svg" alt="Modelist">
             </div>

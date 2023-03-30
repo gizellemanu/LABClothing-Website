@@ -17,6 +17,7 @@ export class ColectionsheetComponent {
     estacaoLancamento: ['', Validators.required],
     orcamento: ['', Validators.required],
     marca: ['', Validators.required],
+    modelo: ['', Validators.required],
     anoLancamento: ['', Validators.required],
   });
  

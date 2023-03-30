@@ -26,9 +26,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr
-                  *ngFor="let colecao of colecoes"
-                  [routerLink]="['/editar/', colecao.id]">
+                <tr *ngFor="let colecao of colecoes" (click)="editcollection(colecao)">
                   <td>{{ colecao.colecao }}</td>
                   <td>{{ colecao.responsavel }}</td>
                   <td>{{ colecao.estacaoLancamento }}</td>

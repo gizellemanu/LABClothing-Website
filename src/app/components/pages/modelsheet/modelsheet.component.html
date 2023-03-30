@@ -11,7 +11,7 @@
               <input 
                 type="text"
                 class="form-control"
-               formControlName="nomemodelo"
+                formControlName="nomemodelo"
                 placeholder="Model name">
             </div>
             <div class="col">
@@ -19,7 +19,7 @@
                 class="form-select form-select"
                 aria-label=".form-select-lg example"
                 formControlName="tipo">
-                <option value="" disabled selected>Select type model</option>
+                <option value="" disabled selected>Select the type of model</option>
                 <option value="bermuda">bermuda</option>
                 <option value="biquini">biquini</option>
                 <option value="bolsa">bolsa</option>
@@ -110,7 +110,7 @@
               <button
                 type="button"
                 class="btn btn-secondary"
-                routerLink="/sidebar/navbar/modellist"> Cancel</button>
+                routerLink="/sidebar/navbar/modellist/"> Cancel</button>
               <button [disabled]="!form.valid" type="submit" class="btn btn-primary">Save</button>
             </div>
           </div>

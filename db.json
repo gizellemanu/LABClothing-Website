@@ -1,135 +1,35 @@
 {
   "modelos": [
     {
-      "id": "001",
-      "nomemodelo": "Tie",
-      "responsavel": "Gizelle",
-      "tipo": "bermuda",
-      "colecao": "22",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "002",
-      "nomemodelo": "T-shirt",
-      "responsavel": "Gizelle",
-      "tipo": "calca",
-      "colecao": "35",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "003",
-      "nomemodelo": "Trousers",
-      "responsavel": "Gizelle",
-      "tipo": "bone",
-      "colecao": "94",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "004",
-      "nomemodelo": "Purse",
-      "responsavel": "Gizelle",
-      "tipo": "bolsa",
-      "colecao": "56",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "005",
-      "nomemodelo": "Jacket",
-      "responsavel": "Gizelle",
-      "tipo": "camisa",
-      "colecao": "19",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "006",
-      "nomemodelo": "Body-warmer",
-      "responsavel": "Gizelle",
-      "tipo": "chapeu",
-      "colecao": "19",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "007",
-      "nomemodelo": "Sleeveless",
-      "responsavel": "Gizelle",
-      "tipo": "saia",
-      "colecao": "19",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "id": "008",
-      "nomemodelo": "skirt",
-      "responsavel": "Gizelle",
-      "tipo": "saia",
-      "colecao": "19",
-      "bordado": "sim",
-      "estampa": "nao"
-    },
-    {
-      "nomemodelo": "hzfh",
+      "nomemodelo": "evase",
       "colecao": "farm",
-      "tipo": "bone",
-      "bordado": "nao",
-      "estampa": "não",
-      "responsavel": "fhbzdh",
-      "id": "HuWnEK_"
+      "tipo": "saia",
+      "bordado": "sim",
+      "estampa": "sim",
+      "responsavel": "Luiza",
+      "id": "YeV57Jz"
     }
   ],
   "colecoes": [
     {
-      "colecao": "Spring Field",
-      "responsavel": "Gizelle",
-      "estacaoLancamento": "Summer",
-      "orcamento": "15",
-      "marca": "Antix",
-      "anoLancamento": "2002"
-    },
-    {
-      "colecao": "Summer Fashiom",
-      "responsavel": "Gizelle",
-      "estacaoLancamento": "Winter",
-      "orcamento": "10",
-      "marca": "Antix",
-      "anoLancamento": "2016"
-    },
-    {
-      "colecao": "Night Pary",
-      "responsavel": "Gizelle",
-      "estacaoLancamento": "Spring",
-      "modelo": 10,
-      "orcamento": "10",
-      "anoLancamento": "1998"
-    },
-    {
-      "colecao": "Elegant me",
-      "responsavel": "Gizelle",
-      "estacaoLancamento": "Sumer",
-      "orcamento": "10",
-      "marca": "Antix",
-      "anoLancamento": "2020"
-    },
-    {
-      "colecao": "Breakdown ",
-      "responsavel": "Gizelle",
-      "estacaoLancamento": "Autunm",
+      "colecao": "lamour",
+      "responsavel": "gizelle",
+      "estacaoLancamento": "spring",
       "orcamento": "100",
-      "marca": "Antix",
-      "anoLancamento": "2010"
+      "marca": "farm",
+      "modelo": "10",
+      "anoLancamento": "2012",
+      "id": "LmOIN6U"
     },
     {
-      "colecao": "Happy days",
-      "responsavel": "Gizelle",
-      "estacaoLancamento": "Inverno",
-      "orcamento": "2000",
-      "marca": "Antix",
-      "anoLancamento": "2018"
+      "colecao": "lamour",
+      "responsavel": "joaquina",
+      "estacaoLancamento": "inverno",
+      "orcamento": "10",
+      "marca": "antix",
+      "modelo": "500",
+      "anoLancamento": "1998",
+      "id": "v_UU1CG"
     }
   ]
 }

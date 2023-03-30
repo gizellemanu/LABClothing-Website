@@ -24,7 +24,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr *ngFor="let modelo of modelos">
+                <tr *ngFor="let modelo of modelos"(click)="editmodel(modelo)">
                   <th scope="row"></th>
                   <td>{{ modelo.id }}</td>
                   <td>{{ modelo.nomemodelo }}</td>

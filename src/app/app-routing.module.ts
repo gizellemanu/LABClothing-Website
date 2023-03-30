@@ -55,6 +55,10 @@ const routes: Routes = [
         component: ColectioneditComponent,
       },
       {
+        path: 'sidebar/navbar/colectionedit/:id', 
+        component: ColectioneditComponent,
+      },
+      {
         path: 'sidebar/navbar/colectionsheet',
         component: ColectionsheetComponent,
       },
@@ -67,24 +71,18 @@ const routes: Routes = [
         component: ModeleditComponent,
       },
       {
+        path: 'sidebar/navbar/modeledit/:id', 
+        component: ModeleditComponent,
+      },
+      {
         path: 'sidebar/navbar/modelsheet',
         component: ModelsheetComponent,
       },
     ],
     
   },
-  
-  {
-    path: 'editar/:id',
-    component: ColectioneditComponent,
-    children:[
-      {
-        path: '',
-        component: ParentComponent, 
-        outlet: 'main'
-      },
-    ],
-  }
+
+ 
 ];
 
 
