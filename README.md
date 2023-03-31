@@ -71,6 +71,7 @@ LAB-Clothing-Collection\src\app\components
             1. navbar
             2. parent
             3. sidebar
+            
      ..\pages
             1. colectionedit
             2. colectionlist
@@ -83,9 +84,11 @@ LAB-Clothing-Collection\src\app\components
             9. userlogin
             10. userpassword
             11. userregister
+            
     ..\service 
             1. collection
             2. model
+            
 \LAB-Clothing-Collection\db.json
 
 ## Autores
