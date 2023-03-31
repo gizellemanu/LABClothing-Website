@@ -11,18 +11,10 @@ export class ModelService {
 
   constructor(private http: HttpClient, private router: Router) {}
 
-  getModelos(): Observable<any> {
-    return this.http.get<any>(this.apiUrl);
-  }
+  getModelos(): Observable<any> { return this.http.get<any>(this.apiUrl);}
 
-  getModelo(id: number): Observable<any> {
-    const url = `${this.apiUrl}/${id}`;
-    return this.http.get<any>(url);
-  }
+  getModelo(id: number): Observable<any> { const url = `${this.apiUrl}/${id}`; return this.http.get<any>(url);}
 
-
-  addModel(model: any): Observable<any> {
-    return this.http.post<any>(this.apiUrl, model);
-  }
+  addModel(model: any): Observable<any> {return this.http.post<any>(this.apiUrl, model);}
 
 }

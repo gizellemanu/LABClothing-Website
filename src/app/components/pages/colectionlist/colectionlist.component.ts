@@ -15,8 +15,7 @@ export class ColectionlistComponent implements OnInit{
   constructor(
     private httpClient: HttpClient, 
     private collectionService: CollectionService,
-    private router: Router 
-  ) { }
+    private router: Router) { }
 
   ngOnInit(): void {
     this.httpClient.get<any[]>('http://localhost:3000/colecoes')
@@ -25,8 +24,5 @@ export class ColectionlistComponent implements OnInit{
       });
   }
   
-  editcollection(collection:any)
-  {
-    this.router.navigate(['sidebar/navbar/colectionedit', collection.id]);
-  }
+  editcollection(collection:any){this.router.navigate(['sidebar/navbar/colectionedit', collection.id]);}
 }

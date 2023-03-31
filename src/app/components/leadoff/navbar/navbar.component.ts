@@ -8,15 +8,9 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent {
   constructor(private router: Router) { }
-  handleAccountClick() {
-    this.router.navigate(['/login']);
-  }
+  handleAccountClick() { this.router.navigate(['/login']);}
   
-  handleSetsClick() {
-    this.router.navigate(['/login']);
-  }
+  handleSetsClick() {this.router.navigate(['/login']);}
   
-  handleLogoutClick() {
-    this.router.navigate(['/login']);
-  }
+  handleLogoutClick() { this.router.navigate(['/login']);}
 }

@@ -12,18 +12,13 @@ export class CollectionService {
 
   constructor(private http: HttpClient, private router: Router) { }
 
-/*   calculateTotalModels(colecoes: any[]): number {
-    return colecoes.reduce((total: number, colecao: any) => total + colecao.modelo, 0);
-  } */
- calculateTotalModels(colecoes: any[]): number {
-    return colecoes.reduce((total: number, colecao: any) => total + Number(colecao.modelo), 0);
-  }
+ calculateTotalModels(colecoes: any[]): number { return colecoes.reduce((total: number, colecao: any) => total + Number(colecao.modelo), 0);}
 
   calculateAverageBudget(colecoes: any[]): number {
     let totalOrcamento = 0;
     for (let i = 0; i < colecoes.length; i++) {
-      const orcamento = colecoes[i].orcamento.replace(/[^\d.-]/g, '');
-      totalOrcamento += parseFloat(orcamento);
+      const budget = colecoes[i].orcamento.replace(/[^\d.-]/g, '');
+      totalOrcamento += parseFloat(budget);
     }
     return totalOrcamento / colecoes.length;
   }
@@ -35,15 +30,13 @@ export class CollectionService {
       const sorted = colecoes
         .filter(item => item.hasOwnProperty('orcamento'))
         .sort((a, b) => {
-          const orcamentoA = parseFloat(a.orcamento.replace('R$', '').replace('.', '').replace(',', '.'));
-          const orcamentoB = parseFloat(b.orcamento.replace('R$', '').replace('.', '').replace(',', '.'));
-          return orcamentoB - orcamentoA;
+          const budgetA = parseFloat(a.orcamento.replace('R$', '').replace('.', '').replace(',', '.'));
+          const budgetB = parseFloat(b.orcamento.replace('R$', '').replace('.', '').replace(',', '.'));
+          return budgetB - budgetA;
         });
       return sorted.slice(0, 5);
     }
   }
 
-  addcollection(collection: any): Observable<any> {
-    return this.http.post<any>(this.apiUrl, collection);
-  }
+  addcollection(collection: any): Observable<any> {return this.http.post<any>(this.apiUrl, collection); }
 }

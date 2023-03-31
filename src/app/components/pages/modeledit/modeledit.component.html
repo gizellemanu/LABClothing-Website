@@ -29,7 +29,7 @@
             <div class="row">
               <div class="col">
                 <select [(ngModel)]="model.colecao" name="model.colecao" class="form-select form-select" aria-label=".form-select-lg example">
-                  <option value="" disabled selected>Select the collection</option>
+                  <option value="" disabled selected>Select the collection brand</option>
                   <option value="antix" [selected]="model.colecao === 'antix'">Antix</option>
                   <option value="addidas" [selected]="model.colecao === 'addidas'">Addidas</option>
                   <option value="arrezo" [selected]="model.colecao === 'arrezo'">Arrezo</option>
@@ -50,23 +50,23 @@
               <div class="col">
                 <p class="text-body py-2">Does the model has embroidery?</p>
                 <div class="form-check form-check-inline">
-                  <input [(ngModel)]="model.bordado" name="bordado" value="sim" type="radio" class="form-check-input-inline">
-                  <label class="form-check-label px-2" for="bordado">sim</label>
+                  <input [(ngModel)]="model.bordado" name="bordado" value="yes" type="radio" class="form-check-input-inline">
+                  <label class="form-check-label px-2" for="bordado">yes</label>
                 </div>
                 <div class="form-check form-check-inline pb-3">
-                  <input [(ngModel)]="model.bordado" name="bordado" value="nao" type="radio" class="form-check-input-inline">
-                  <label class="form-check-label px-2" for="bordado">não</label>
+                  <input [(ngModel)]="model.bordado" name="bordado" value="not" type="radio" class="form-check-input-inline">
+                  <label class="form-check-label px-2" for="bordado">not</label>
                 </div>
               </div>
               <div class="col">
                 <p class="text-body py-2">Does the model has a print?</p>
                 <div class="form-check form-check-inline">
-                  <input [(ngModel)]="model.estampa" name="estampa" value="sim" type="radio" class="form-check-input-inline">
-                  <label class="form-check-label px-2" for="estampa">sim</label>
+                  <input [(ngModel)]="model.estampa" name="estampa" value="yes" type="radio" class="form-check-input-inline">
+                  <label class="form-check-label px-2" for="estampa">yes</label>
                 </div>
                 <div class="form-check form-check-inline pb-3">
-                  <input [(ngModel)]="model.estampa"name="estampa" value="não" type="radio" class="form-check-input-inline" >
-                <label class="form-check-label px-2" for="estampa">não</label>
+                  <input [(ngModel)]="model.estampa"name="estampa" value="not" type="radio" class="form-check-input-inline" >
+                <label class="form-check-label px-2" for="estampa">not</label>
                 </div>
               </div>
             </div>

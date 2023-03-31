@@ -64,12 +64,14 @@ body {
       font-size: 14px;
       line-height: 16px;
   }
+
   p {
       width: 100%;
       height: auto;
       font-size: 12px;
       line-height: 14px;
   }
+  
   #sidebar {
       position: static;
       width: 100%;
@@ -77,24 +79,29 @@ body {
       margin-bottom: 20px;
       box-shadow: none;
   }
+
   #sidebar.active {
       margin-left: 0;
   }
+
   #sidebar ul.components {
       flex-direction: row;
       justify-content: space-between;
       padding: 0;
   }
+
   #sidebar ul li a {
       font-size: 0.9em;
       padding: 5px;
       flex-direction: row-reverse;
   }
+
   ul ul a {
       padding-left: 15px !important;
       background: #EBF0FA;
   }
 }
+
 @media (min-width: 769px) and (max-width: 1024px) {
   body {
       font-size: 14px;

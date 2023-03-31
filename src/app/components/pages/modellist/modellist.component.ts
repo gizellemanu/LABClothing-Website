@@ -21,10 +21,7 @@ export class ModellistComponent implements OnInit {
       this.modelos = data;
     });
   }
-  editmodel(model:any)
-  {
-    this.router.navigate(['sidebar/navbar/modeledit', model.id], { state: { data: model } });
-  }
-  
 
+  editmodel(model:any) {this.router.navigate(['sidebar/navbar/modeledit', model.id], { state: { data: model } });}
+ 
 }

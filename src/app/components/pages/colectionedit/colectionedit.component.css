@@ -12,12 +12,12 @@ body {
     height: 180px;
     background: #FBF4F4;
     border-radius: 20px;
-    
 }
-.form-control{
 
+.form-control{
     color: #b4b6c1;
 }
+
 .card {
     border: none;
     border-radius: 10px;
@@ -42,7 +42,7 @@ body {
     align-items: self-end;
     width: 280px;
     height: 120px;
-  }
+}
 
 button{
     padding-left: 2rem; 

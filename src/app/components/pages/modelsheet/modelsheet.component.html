@@ -10,9 +10,7 @@
             <div class="col">
               <input 
                 type="text"
-                class="form-control"
-                formControlName="nomemodelo"
-                placeholder="Model name">
+                class="form-control" formControlName="nomemodelo"placeholder="Model name">
             </div>
             <div class="col">
               <select
@@ -51,11 +49,7 @@
                 </select>
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  formControlName="responsavel"
-                  placeholder="Sponsor">
+                <input type="text" class="form-control" formControlName="responsavel" placeholder="Sponsor">
               </div>
             </div>
           </div>
@@ -64,53 +58,30 @@
               <div class="col">
                 <p class="text-body py-2">Does the model has embroidery?</p>
                 <div class="form-check form-check-inline">
-                  <input
-                    name="bordado"
-                    value="sim"
-                    formControlName="bordado"
-                    class="form-check-input-inline"
-                    type="radio">
-                  <label class="form-check-label px-2" for="bordado">sim</label>
+                  <input name="bordado" value="yes" formControlName="bordado" class="form-check-input-inline" type="radio">
+                  <label class="form-check-label px-2" for="bordado">yes</label>
                 </div>
                 <div class="form-check form-check-inline pb-3">
-                  <input
-                    name="bordado"
-                    value="nao"
-                    formControlName="bordado"
-                    class="form-check-input-inline"
-                    type="radio">
-                  <label class="form-check-label px-2" for="bordado">não</label>
+                  <input name="bordado" value="not" formControlName="bordado" class="form-check-input-inline" type="radio">
+                  <label class="form-check-label px-2" for="bordado">not</label>
                 </div>
               </div>
               <div class="col">
                 <p class="text-body py-2">Does the model has a print?</p>
                 <div class="form-check form-check-inline">
-                  <input
-                    name="estampa"
-                    value="sim"
-                    formControlName="estampa"
-                    class="form-check-input-inline"
-                    type="radio">
-                  <label class="form-check-label px-2" for="estampa">sim</label>
+                  <input name="estampa" value="yes" formControlName="estampa" class="form-check-input-inline" type="radio">
+                  <label class="form-check-label px-2" for="estampa">yes</label>
                 </div>
                 <div class="form-check form-check-inline pb-3">
-                  <input
-                    name="estampa"
-                    formControlName="estampa"
-                    value="não"
-                    class="form-check-input-inline"
-                    type="radio">
-                  <label class="form-check-label px-2" for="estampa">não</label>
+                  <input name="estampa" formControlName="estampa" value="not" class="form-check-input-inline" type="radio">
+                  <label class="form-check-label px-2" for="estampa">not</label>
                 </div>
               </div>
             </div>
           </div>
           <div class="mt-5">
             <div class="text-center text-lg-start float-right">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                routerLink="/sidebar/navbar/modellist/"> Cancel</button>
+              <button type="button" class="btn btn-secondary" routerLink="/sidebar/navbar/modellist/"> Cancel</button>
               <button [disabled]="!form.valid" type="submit" class="btn btn-primary">Save</button>
             </div>
           </div>

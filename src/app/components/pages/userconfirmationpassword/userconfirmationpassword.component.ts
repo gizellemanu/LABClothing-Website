@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './userconfirmationpassword.component.html',
   styleUrls: ['./userconfirmationpassword.component.css']
 })
-export class UserconfirmationpasswordComponent {
-
-}
+export class UserconfirmationpasswordComponent {}

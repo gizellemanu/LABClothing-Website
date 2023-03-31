@@ -8,12 +8,11 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./userlogin.component.css'],
 })
 export class UserloginComponent {
-  user = {
-    email: '',
-    password: '', 
-  };
+  user = {email: '',password: '', };
+ 
   isEmailValid = false;
   isPasswordValid = false;
+  
   constructor(private router: Router, private route: ActivatedRoute) {}
 
   onSubmit() {
@@ -22,8 +21,7 @@ export class UserloginComponent {
     const isPasswordValid = this.user.password.length >= 8;
 
     this.isEmailValid = emailRegex.test(this.user.email);
-    if (!this.isEmailValid) {
-      alert('Please enter a valid email.');
+    if (!this.isEmailValid) {alert('Please enter a valid email.');
       return;
     }
 

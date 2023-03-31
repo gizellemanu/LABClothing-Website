@@ -2,12 +2,7 @@
 <div class="container mt-5 mb-3">
   <div class="row">
     <div class="col-md-10 ml-auto px-5 py-4 mt-2">
-      <button
-        routerLink="/sidebar/navbar/colectionsheet"
-        type="button"
-        class="float-right btn btn-primary btn px-5">
-        New Colection
-      </button>
+      <button routerLink="/sidebar/navbar/colectionsheet" type="button" class="float-right btn btn-primary btn px-5"> New Colection </button>
       <h3 class="heading mb-3">Collection</h3>
     </div>
     <div class="col-md-9 ml-auto mt-3">
@@ -18,18 +13,18 @@
             <table class="table table-hover">
               <thead>
                 <tr>
-                  <th scope="col">Colection</th>
+                  <th scope="col">Collection</th>
                   <th scope="col">Sponsor</th>
-                  <th scope="col">Season / Casting</th>
-                  <th scope="col">Brand</th>
+                  <th scope="col">Season . Casting </th>
+                   <th scope="col">Brand</th>
                   <th scope="col">Budget</th>
                 </tr>
               </thead>
               <tbody>
-                <tr *ngFor="let colecao of colecoes" (click)="editcollection(colecao)">
+                <tr *ngFor="let colecao of colecoes" (click)="editcollection(colecao)" >
                   <td>{{ colecao.colecao }}</td>
                   <td>{{ colecao.responsavel }}</td>
-                  <td>{{ colecao.estacaoLancamento }}</td>
+                  <td>{{ colecao.estacaoLancamento }}  {{ colecao.anoLancamento }}</td>
                   <td>{{ colecao.marca }}</td>
                   <td>{{ colecao.orcamento }}</td>
                 </tr>

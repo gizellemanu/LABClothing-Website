@@ -25,7 +25,5 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-  sortTable(coluna: string) {
-    this.colecoes = this.collectionService.sortTable(this.colecoes || [], coluna);
-  }
+  sortTable(coluna: string) {this.colecoes = this.collectionService.sortTable(this.colecoes || [], coluna);}
 }

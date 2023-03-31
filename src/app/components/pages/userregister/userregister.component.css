@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-html,
-body {
+html, body {
   height: 100%;
   font-size: 14px;
   color: #B4B6C1;
@@ -99,6 +98,7 @@ body {
 input::placeholder {
   color: #b4b6c1;
 }
+
 @media screen and (max-width: 425px) {
   .my-login-page {
     width: 90%;
