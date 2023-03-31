@@ -13,7 +13,7 @@ A aplicação contem os seguintes:
     . _O formulario de login so e validado com os campos preenchidos corretamente;_
     . _A senha deve conter 8 caracteres._
 
-- **Item 2**. Uma Tela de Esqueci a Senha contendo um simples formulário com o campo de e-mail.
+- **Item 2**. Uma Tela de Esqueci a Senha contendo um simples formulário com o campo de e-mail.<br/>
     . _O formulario de Esqueci a Senha so e validado com o campo preenchidos corretamente._
 
 - **Item 3**. Uma Tela de Cadastro de Usuário contendo um formulário com os campos de nome, nome da empresa, cnpj, e-mail.
