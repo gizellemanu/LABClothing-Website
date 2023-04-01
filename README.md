@@ -91,5 +91,8 @@ LAB-Clothing-Collection\src\app\components
             
 \LAB-Clothing-Collection\db.json
 
+## Apresentação da Aplicação
+**Link Google Drive:** _`https://drive.google.com/file/d/1NhCjuQCXl-iFPC-S5mV5oDo5BhKH_Sll/view?usp=share_link`_
+
 ## Autores
 Gizelle Emanuela da Silva
