@@ -1,5 +1,4 @@
 # LAB Clothing Collection - DEVinHouse 
-_Módulo 1 - Projeto Avaliativo_
 
 A LABFashion LTDA é uma empresa líder no setor de tecnologia para gestão de moda e está lançando um novo projeto intitulado LAB Clothing Collection. 
 
@@ -91,8 +90,6 @@ LAB-Clothing-Collection\src\app\components
             
 \LAB-Clothing-Collection\db.json
 
-## Apresentação da Aplicação
-**Link Google Drive:** _`https://drive.google.com/file/d/1NhCjuQCXl-iFPC-S5mV5oDo5BhKH_Sll/view?usp=share_link`_
 
 ## Autores
 Gizelle Emanuela da Silva
