@@ -2,7 +2,7 @@
 
 # LAB Clothing Collection
 
-The LAB Clothing Collection project aims to serve the technology sector in fashion management. This repository presents the proposal of a software designed to efficiently manage fashion collections and creation models in the clothing segment.
+<p style="text-align: justify;"><em> The LAB Clothing Collection project aims to serve the technology sector in fashion management. This repository presents the proposal of a software designed to efficiently manage fashion collections and creation models in the clothing segment.</em></p>
 
 ## Certificate of Completion
 > _This project was developed during the [DEVinHouse | Audaces](https://devinhouse.tech/) course, conducted by [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
@@ -129,7 +129,7 @@ Gizelle Emanuela da Silva
 <img align="right" height="30" width="40" src="https://www.svgrepo.com/show/405433/flag-for-flag-brazil.svg" alt="Portugues">
 
 # LAB Clothing Collection
-Denominado LAB Clothing Collection o projeto procura atender o setor de tecnologiana gestão de moda, este repositorio apresenta a proposta de um software que tem como objetivo gerenciar coleções de moda e os modelos de criação no segmento de vestuário de forma eficiente. . 
+<p style="text-align: justify;"><em> Denominado LAB Clothing Collection o projeto procura atender o setor de tecnologiana gestão de moda, este repositorio apresenta a proposta de um software que tem como objetivo gerenciar coleções de moda e os modelos de criação no segmento de vestuário de forma eficiente.</em></p>
 
 ## Certificado de Conclusão
 > _Este projeto foi desenvolvido durante o curso [DEVinHouse | Audaces](https://devinhouse.tech/), ministrado por [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
