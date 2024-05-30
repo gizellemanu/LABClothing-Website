@@ -4,9 +4,9 @@
 
 <p style="text-align: justify;"><em> The LAB Clothing Collection project aims to serve the technology sector in fashion management. This repository presents the proposal of a software designed to efficiently manage fashion collections and creation models in the clothing segment.</em></p>
 
-## Certificate of Completion
-> _This project was developed during the [DEVinHouse | Audaces](https://devinhouse.tech/) course, conducted by [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
-> You can access the certificate directly [→ here ←](path/to/certificate.pdf).
+#### Certificate of Completion
+_This project was developed during the [DEVinHouse | Audaces](https://devinhouse.tech/) course, conducted by [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
+You can access the certificate directly [→ here ←](path/to/certificate.pdf).
 
 ## _Table of Contents_
 - [_How to Run the Project_](#how-to-run-the-project)
@@ -131,9 +131,9 @@ Gizelle Emanuela da Silva
 # LAB Clothing Collection
 <p style="text-align: justify;"><em> Denominado LAB Clothing Collection o projeto procura atender o setor de tecnologiana gestão de moda, este repositorio apresenta a proposta de um software que tem como objetivo gerenciar coleções de moda e os modelos de criação no segmento de vestuário de forma eficiente.</em></p>
 
-## Certificado de Conclusão
-> _Este projeto foi desenvolvido durante o curso [DEVinHouse | Audaces](https://devinhouse.tech/), ministrado por [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
->  Você pode acessar o certificado diretamente [→ aqui ←](caminho/para/o/certificado.pdf). 
+#### Certificado de Conclusão
+_Este projeto foi desenvolvido durante o curso [DEVinHouse | Audaces](https://devinhouse.tech/), ministrado por [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
+Você pode acessar o certificado diretamente [→ aqui ←](caminho/para/o/certificado.pdf). 
 
 ## _Índice_
 - [_Como Executar o Projeto_](#como-executar-o-projeto)
