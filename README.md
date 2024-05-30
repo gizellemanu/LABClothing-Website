@@ -117,7 +117,6 @@ LAB-Clothing-Collection
 │           └── model
 └── db.json
 ```
-```
 ## Authors
 ```
 Gizelle Emanuela da Silva
