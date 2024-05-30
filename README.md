@@ -95,27 +95,28 @@ Before using this application, you need to have Node.js and Angular CLI installe
 ```plaintext
 LAB-Clothing-Collection
 └── src
-    └── app
-        └── components
-            ├── navbar
-            ├── parent
-            └── sidebar
-        └── pages
-            ├── collectionedit
-            ├── collectionlist
-            ├── collectionsheet
-            ├── dashboard
-            ├── modellist
-            ├── modeledit
-            ├── modelsheet
-            ├── userconfirmationpassword
-            ├── userlogin
-            ├── userpassword
-            └── userregister
-        └── service 
-            ├── collection
-            └── model
+│   └── app
+│       └── components
+│       │   ├── navbar
+│       │   ├── parent
+│       │   └── sidebar
+│       └── pages
+│       │   ├── colectionedit
+│       │   ├── colectionlist
+│       │   ├── colectionsheet
+│       │   ├── dashboard
+│       │   ├── modellist
+│       │   ├── modeledit
+│       │   ├── modelsheet
+│       │   ├── userconfirmationpassword
+│       │   ├── userlogin
+│       │   ├── userpassword
+│       │   └── userregister
+│       └── service 
+│           ├── collection
+│           └── model
 └── db.json
+```
 ```
 ## Authors
 ```
