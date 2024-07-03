@@ -6,7 +6,7 @@ The LAB Clothing Collection project aims to serve the technology sector in fashi
 
 ## Certificate of Completion
 > _This project was developed during the [DEVinHouse | Audaces](https://devinhouse.tech/) course, conducted by [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
-> You can access the certificate directly [→ here ←](path/to/certificate.pdf).
+> You can access the certificate directly [→ here ←](https://github.com/gizellemanu/LABClothing-Website/blob/master/Certificado.pdf).
 ## _Table of Contents_
 - [_How to Run the Project_](#how-to-run-the-project)
 - [_Project Features_](#project-features)
@@ -125,7 +125,7 @@ Denominado LAB Clothing Collection o projeto procura atender o setor de tecnolog
 
 ## Certificado de Conclusão
 > _Este projeto foi desenvolvido durante o curso [DEVinHouse | Audaces](https://devinhouse.tech/), ministrado por [SENAI](https://cursos.sesisenai.org.br/curso/devinhouse/525)._<br>
->  Você pode acessar o certificado diretamente [→ aqui ←](caminho/para/o/certificado.pdf). 
+>  Você pode acessar o certificado diretamente [→ aqui ←](https://github.com/gizellemanu/LABClothing-Website/blob/master/Certificado.pdf). 
 ## _Índice_
 - [_Como Executar o Projeto_](#como-executar-o-projeto)
 - [_Funcionalidades do Projeto_](#funcionalidades-do-projeto)
