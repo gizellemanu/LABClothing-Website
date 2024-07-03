@@ -1,0 +1,87 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-10 ml-auto px-4 py-4 mt-3 ">
+      <h3 class="heading">Edit Model</h3>
+    </div>
+    <div class="col-md-9 ml-auto mt-3 ">
+      <div class="card p-3 mb-2">
+        <form (submit)="onSubmit()">
+          <div class="row">
+            <div class="col">
+              <input [(ngModel)]="model.nomemodelo" name="model.nomemodelo" type="text" placeholder="Model name"class="form-control">
+            </div>
+            <div class="col">
+              <select [(ngModel)]="model.tipo" name="model.tipo" class="form-select form-select" aria-label=".form-select-lg example" >
+                <option value="" disabled selected>Select the type of model</option>
+                <option value="bermuda" [selected]="model.tipo === 'bermuda'">Bermuda</option>
+                <option value="biquini" [selected]="model.tipo === 'biquini'">Biquini</option>
+                <option value="bolsa" [selected]="model.tipo === 'bolsa'">Bolsa</option>
+                <option value="bone" [selected]="model.tipo === 'bone'">Bone</option>
+                <option value="calca" [selected]="model.tipo === 'calca'">Calca</option>
+                <option value="calcado" [selected]="model.tipo === 'calcado'">Calcado</option>
+                <option value="camisa" [selected]="model.tipo === 'camisa'">Camisa</option>
+                <option value="chapeu" [selected]="model.tipo === 'chapeu'">Chapeu</option>
+                <option value="saia" [selected]="model.tipo === 'saia'">Saia</option>
+              </select>
+            </div>
+          </div>
+          <div class="mt-3">
+            <div class="row">
+              <div class="col">
+                <select [(ngModel)]="model.colecao" name="model.colecao" class="form-select form-select" aria-label=".form-select-lg example">
+                  <option value="" disabled selected>Select the collection brand</option>
+                  <option value="antix" [selected]="model.colecao === 'antix'">Antix</option>
+                  <option value="addidas" [selected]="model.colecao === 'addidas'">Addidas</option>
+                  <option value="arrezo" [selected]="model.colecao === 'arrezo'">Arrezo</option>
+                  <option value="farm" [selected]="model.colecao === 'farm'">Farm</option>
+                  <option value="blue still" [selected]="model.colecao === 'blue still'">Blue Still</option>
+                  <option value="miu miu" [selected]="model.colecao === 'miu miu'">Miu Miu</option>
+                  <option value="jhon jhon" [selected]="model.colecao === 'jhon jhon'">Jhon jhon</option>
+                  <option value="luz da lua" [selected]="model.colecao === 'luz da lua'">Luz da Lua</option>
+                </select>
+              </div>
+              <div class="col">
+                <input [(ngModel)]="model.responsavel" name="model.responsavel" type="text" class="form-control" placeholder="Sponsor">
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="row">
+              <div class="col">
+                <p class="text-body py-2">Does the model has embroidery?</p>
+                <div class="form-check form-check-inline">
+                  <input [(ngModel)]="model.bordado" name="bordado" value="yes" type="radio" class="form-check-input-inline">
+                  <label class="form-check-label px-2" for="bordado">yes</label>
+                </div>
+                <div class="form-check form-check-inline pb-3">
+                  <input [(ngModel)]="model.bordado" name="bordado" value="not" type="radio" class="form-check-input-inline">
+                  <label class="form-check-label px-2" for="bordado">not</label>
+                </div>
+              </div>
+              <div class="col">
+                <p class="text-body py-2">Does the model has a print?</p>
+                <div class="form-check form-check-inline">
+                  <input [(ngModel)]="model.estampa" name="estampa" value="yes" type="radio" class="form-check-input-inline">
+                  <label class="form-check-label px-2" for="estampa">yes</label>
+                </div>
+                <div class="form-check form-check-inline pb-3">
+                  <input [(ngModel)]="model.estampa"name="estampa" value="not" type="radio" class="form-check-input-inline" >
+                <label class="form-check-label px-2" for="estampa">not</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="text-center text-lg-start float-left">
+              <button type="button" class="btn btn-danger"(click)="delet()">Delet</button>
+            </div>
+            <div class="text-center text-lg-start float-right">
+              <button type="button" class="btn btn-secondary"(click)="navigateToModelList()">Cancel</button>
+              <button type="submit" class="btn btn-primary"(click)="save()">Save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

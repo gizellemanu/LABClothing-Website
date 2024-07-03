@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+    gap: 40px;
+    position: relative;
+    width: 350px;
+    height: 180px;
+    background: #EBEBEB;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.text1 {
+    width: 43px;
+    height: 39px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.text2 {
+    color: #a5aec0;
+    font-size: 1.5vw;
+}
+
+.heading {
+    width: 201px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #595959;
+    top: auto;
+}
+
+.container img {
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+    padding: 0px;
+    width: 177px;
+    height: 53px;
+}
+
+table th {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+table td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #9395A3;
+}
+
+img {
+    align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+
+    .badge span {
+        width: 30vw;
+        height: 10vw;
+        font-size: 5vw;
+    }
+
+    .progress {
+        height: 0.5vw;
+    }
+
+    .text1 {
+        font-size: 4vw;
+    }
+
+    .text2 {
+        font-size: 3vw;
+    }
+
+    .heading {
+        font-size: 4vw;
+    }
+}

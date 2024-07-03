@@ -1,0 +1,148 @@
+{
+  "modelos": [
+    {
+      "nomemodelo": "Snaptrack",
+      "colecao": "addidas",
+      "tipo": "bone",
+      "bordado": "not",
+      "estampa": "yes",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "jPyUUag"
+    },
+    {
+      "nomemodelo": "Trucker",
+      "colecao": "jhon jhon",
+      "tipo": "bone",
+      "bordado": "yes",
+      "estampa": "not",
+      "responsavel": "Gizelle Emanuela da silva",
+      "id": "ntjU0cN"
+    },
+    {
+      "nomemodelo": "Asa delta",
+      "colecao": "farm",
+      "tipo": "biquini",
+      "bordado": "not",
+      "estampa": "yes",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "detevqF"
+    },
+    {
+      "nomemodelo": "Meia taça",
+      "colecao": "farm",
+      "tipo": "biquini",
+      "bordado": "not",
+      "estampa": "yes",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "OXHGoHl"
+    },
+    {
+      "nomemodelo": "Clutches",
+      "colecao": "arrezo",
+      "tipo": "bolsa",
+      "bordado": "not",
+      "estampa": "not",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "R0_6rBm"
+    },
+    {
+      "nomemodelo": "Tiracolo",
+      "colecao": "arrezo",
+      "tipo": "bolsa",
+      "bordado": "not",
+      "estampa": "not",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "THwZXqv"
+    },
+    {
+      "nomemodelo": "Alpargata",
+      "colecao": "addidas",
+      "tipo": "calcado",
+      "bordado": "yes",
+      "estampa": "not",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "_a5YPit"
+    },
+    {
+      "nomemodelo": "Chuteira",
+      "colecao": "arrezo",
+      "tipo": "calcado",
+      "bordado": "yes",
+      "estampa": "not",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "id": "Zkva7wM"
+    }
+  ],
+  "colecoes": [
+    {
+      "colecao": "L'amour",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "estacaoLancamento": "Winter",
+      "orcamento": "1000",
+      "marca": "Antix",
+      "modelo": "120",
+      "anoLancamento": "2023",
+      "id": "qPcDLNB"
+    },
+    {
+      "colecao": "Raio de Sol",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "estacaoLancamento": "Summer",
+      "orcamento": "3000",
+      "marca": "Antix",
+      "modelo": "96",
+      "anoLancamento": "2023",
+      "id": "GDchpin"
+    },
+    {
+      "colecao": "Celebrate",
+      "responsavel": "Gizelle Emanuel da Silva",
+      "estacaoLancamento": "Spring",
+      "orcamento": "2000",
+      "marca": "Antix",
+      "modelo": "60",
+      "anoLancamento": "2022",
+      "id": "2SJ5USE"
+    },
+    {
+      "colecao": "80'tix",
+      "responsavel": "Gizelle Emanuela da Sila",
+      "estacaoLancamento": "Summer",
+      "orcamento": "4000",
+      "marca": "Lez a Lez",
+      "modelo": "211",
+      "anoLancamento": "Spring",
+      "id": "tmh1DEX"
+    },
+    {
+      "colecao": "Contos da Asia",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "estacaoLancamento": "Winter",
+      "orcamento": "5000",
+      "marca": "Farm",
+      "modelo": "132",
+      "anoLancamento": "2022",
+      "id": "tKqjfxf"
+    },
+    {
+      "colecao": "Aqquarela",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "estacaoLancamento": "Summer",
+      "orcamento": "6000",
+      "marca": "Farm",
+      "modelo": "226",
+      "anoLancamento": "2022",
+      "id": "0piBs8V"
+    },
+    {
+      "colecao": "Cartas para Você",
+      "responsavel": "Gizelle Emanuela da Silva",
+      "estacaoLancamento": "Winter",
+      "orcamento": "7000",
+      "marca": "Lez a Lez",
+      "modelo": "142",
+      "anoLancamento": "2021",
+      "id": "kE99Bak"
+    }
+  ]
+}
